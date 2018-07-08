@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner {
+    background-color: lightgray;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.timer {
+    text-align: center;
+
+}
+
+.questions {
+    
+}
+
+.questions p {
+    font-size: 20px;
+}
+
+.start {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+
+}
+
+#submitButton {
+    
+    
+
+    
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+
+    <title>NBA Trivia Game</title>
+</head>
+<body>
+    <div class="container fluid">
+        <div class="row">
+            <div class="banner col-md-12 col-sm-12"><h1>NBA Trivia Game</h1></div>
+        </div>
+        <br/>
+
+        <div class="timer">Time Left:</div>
+        <hr/>
+
+        <div class="row">
+            <div class="questions col-md-8 col-sm-8">
+                <form>
+                    <p>Question 1: Which NBA team won the most championships?</p>
+        
+                    <input type="radio" name="question1" value="0" id="1a">
+                    <label for="1a">Boston Celtics</label>
+    
+                    <input type="radio" name="question1" value="0" id="1b">
+                    <label for="1b">Chicago Bulls</label>
+    
+                    <input type="radio" name="question1" value="0" id="1c">
+                    <label for="1c">Los Angeles Lakers</label>
+    
+                    <input type="radio" name="question1" value="0" id="1d">
+                    <label for="1d">San Antonio Spurs</label>
+    
+                <p>Question 2: Who is the all time NBA scoring leader?</p>     
+    
+    
+                    <input type="radio" name="question1" value="0" id="2a">
+                    <label for="2a">Micheal Jordan</label>
+    
+                    <input type="radio" name="question1" value="0" id="2b">
+                    <label for="2b">Kareem Adul-Jabbar</label>
+    
+                    <input type="radio" name="question1" value="0" id="2c">
+                    <label for="2c">Kobe Bryant</label>
+    
+                    <input type="radio" name="question1" value="0" id="2d">
+                    <label for="2d">Karl Malone</label>
+    
+                <p>Question 3: Who is the all time NBA assit leader?</p>
+    
+                    <input type="radio" name="question1" value="0" id="3a">
+                    <label for="3a">John Stockton</label>
+    
+                    <input type="radio" name="question1" value="0" id="3b">
+                    <label for="3b">Steve Nash</label>
+    
+                    <input type="radio" name="question1" value="0" id="3c">
+                    <label for="3c">Chris Paul</label>
+    
+                    <input type="radio" name="question1" value="0" id="3d">
+                    <label for="3d">Magic Johnson</label>
+    
+            
+                <p>Question 4: What team drafted Kobe Bryant?</p>
+    
+                    <input type="radio" name="question1" value="0" id="5a">
+                    <label for="5a">Los Angeles Lakers</label>
+    
+                    <input type="radio" name="question1" value="0" id="5b">
+                    <label for="5b">Charlotte Hornets</label>
+    
+                    <input type="radio" name="question1" value="0" id="5c">
+                    <label for="5c">Orlando Magic</label>
+    
+                    <input type="radio" name="question1" value="0" id="5d">
+                    <label for="5d">Bost Celtics</label>
+    
+    
+                <p>Question 5: Who is the shortest player of all-time?</p>
+    
+                    <input type="radio" name="question1" value="0" id="6a">
+                    <label for="6a">Tyrone 'Muggsy' Bogues </label>
+    
+                    <input type="radio" name="question1" value="0" id="6b">
+                    <label for="6b">Spud Web</label>
+    
+                    <input type="radio" name="question1" value="0" id="6c">
+                    <label for="6c">Early Boykins</label>
+    
+                    <input type="radio" name="question1" value="0" id="6d">
+                    <label for="6d">Nate Robinson</label>
+    
+                <p>Question 6: Who was the #1 draft pick in 2003?</p>
+    
+                    <input type="radio" name="question1" value="0" id="7a">
+                    <label for="7a">Kyrie Irving </label>
+    
+                    <input type="radio" name="question1" value="0" id="7b">
+                    <label for="7b">Kevin Durant</label>
+    
+                    <input type="radio" name="question1" value="0" id="7c">
+                    <label for="7c">Lebron James</label>
+    
+                    <input type="radio" name="question1" value="0" id="7d">
+                    <label for="7d">Carmelo Anthony</label>
+    
+                <p>Question 7: Who won the most NBA Finals MVP's?</p>
+    
+                    <input type="radio" name="question1" value="0" id="8a">
+                    <label for="8a">Kobe Bryant</label>
+    
+                    <input type="radio" name="question1" value="0" id="8b">
+                    <label for="8b">Micheal Jordan</label>
+    
+                    <input type="radio" name="question1" value="0" id="8c">
+                    <label for="8c">Lebron James</label>
+    
+                    <input type="radio" name="question1" value="0" id="8d">
+                     <label for="8d">Tim Duncun</label>
+                     
+                     <br/>
+        
+                    <button id="submitButton" type="submit">Submit Answers</button>
+                </form>
+
+            </div>
+                <div class="gameResults col-md-4 col-md-4">
+                    <h2>Results</h2>
+                    <br>
+                    <div class="correct">Correct:</div>
+                    <br/>
+                    <div class="incorrect">Incorrect:</div>
+                </div>
+        </div>
+
+            <div class="row">
+                <div class="start">Start</div>
+            </div>            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
